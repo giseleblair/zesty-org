@@ -2,6 +2,7 @@
 
 * [Getting Started](README.md)
 * [Cloud Content Instance](content-instance.md)
+* [This is my new page](this-is-my-new-page.md)
 
 ## Services
 
@@ -20,19 +21,19 @@
 
 ## Headless
 
-* [Node Package \(PullZesty\)](headless-cms/pullzesty.md)
-* [Headless Code Examples](headless-cms/code-examples/README.md)
-  * [React](headless-cms/code-examples/react/README.md)
-    * [Guide \(Local React App\)](headless-cms/code-examples/react/guide-local-react-app.md)
-    * [Guide \(Remote React App\)](headless-cms/code-examples/react/guide-remote-react-app.md)
-  * [Swift](headless-cms/code-examples/swift/README.md)
-    * [iOS App Guide](headless-cms/code-examples/swift/ios-app-guide.md)
-  * [React Ruby Build Guide](headless-cms/code-examples/ruby-build-guide.md)
-  * [Jekyll Static Site](headless-cms/code-examples/guide.md)
-  * [Hugo Static Site](headless-cms/code-examples/guide-1.md)
-* [Salesforce Commerce Cloud](headless-cms/salesforce-commerce-cloud.md)
-* [Smart Devices](headless-cms/smart-devices/README.md)
-  * [Amazon Fire TV and Roku](headless-cms/smart-devices/amazon-fire-tv-and-roku.md)
+* [Node Package \(PullZesty\)](headless/pullzesty.md)
+* [Headless Code Examples](headless/code-examples/README.md)
+  * [React](headless/code-examples/react/README.md)
+    * [Guide \(Local React App\)](headless/code-examples/react/guide-local-react-app.md)
+    * [Guide \(Remote React App\)](headless/code-examples/react/guide-remote-react-app.md)
+  * [Swift](headless/code-examples/swift/README.md)
+    * [iOS App Guide](headless/code-examples/swift/ios-app-guide.md)
+  * [React Ruby Build Guide](headless/code-examples/ruby-build-guide.md)
+  * [Jekyll Static Site](headless/code-examples/guide.md)
+  * [Hugo Static Site](headless/code-examples/guide-1.md)
+* [Salesforce Commerce Cloud](headless/salesforce-commerce-cloud.md)
+* [Smart Devices](headless/smart-devices/README.md)
+  * [Amazon Fire TV and Roku](headless/smart-devices/amazon-fire-tv-and-roku.md)
 
 ## Community
 

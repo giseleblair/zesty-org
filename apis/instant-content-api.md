@@ -44,13 +44,7 @@ General Format
 {% endapi-method-summary %}
 
 {% api-method-description %}
-All objects will return meta and data fields.   
-  
-The meta field gives information on what type the object is, in addition to its model container.  
-  
-The data field contains meta, version, and content fields.  
-  
-The data meta field contains the actual object metadata, the data version field contains information detailing which version was returned. Lastly, the data content field returns the actual content that was set in the config tab of Zesty.io
+All objects will return meta and data fields.The meta field gives information on what type the object is, in addition to its model container.The data field contains meta, version, and content fields.The data meta field contains the actual object metadata, the data version field contains information detailing which version was returned. Lastly, the data content field returns the actual content that was set in the config tab of Zesty.io
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -73,66 +67,66 @@ Returned if the zuid exists \(Generic Item Example\)
 {% code-tabs-item title="response.json" %}
 ```yaml
 {
-	"meta": {
-		"type": "item",
-		"zuid": "your-zuid",
-		"createdAt": "2018-07-10 23:03:25",
-		"totalItems": 1,
-		"listed": 1,
-		"model": {
-			"type": "model",
-			"zuid": "6-model-zuid",
-			"name": "some model",
-			"label": "Some Model",
-			"resourceURI": "\/-\/instant\/6-model-zuid.json"
-		},
-		"web": {
-			"uri": "\/",
-			"fragment": "zesty_home"
-		}
-	},
-	"data": [
-	{
-		"meta": {
-			"type": "item",
-			"zuid": "7-4ad498-k2cldb",
-			"name": "Homepage",
-			"title": "Homepage",
-			"description": "Some Description",
-			"keywords": "key, words",
-			"language": 1,
-			"model": {
-				"type": "model",
-				"zuid": "6-model-zuid",
-				"name": "some model",
-				"label": "Some Model",
-				"resourceURI": "\/-\/instant\/6-model-zuid.json"
-			},
-			"parent": {
-				"type": "abstract",
-				"zuid": "7-parent-item-zuid",
-				"resourceURI": "\/-\/instant\/7-parent-item-zuid.json",
-			}
-		},
-		"version": {
-			"zuid": "9-version-zuid",
-			"createdAt": "2018-08-17 22:49:06",
-			"iteration": 15,
-			"history": {
-				"type": "versions",
-				"totalItems": 0,
-				"data": null
-			}
-		},
-		"content": {
-			"refName" : "value",
-			"zuid": "18-content-zuid",
-			"version_zuid": "9-6d2c2e2-dlhtq6",
-			"version_num": 15,
-			"publish_at": "2018-08-17 22:49:07",
-			"take_offline_at": null
-		}
-	}]
+    "meta": {
+        "type": "item",
+        "zuid": "your-zuid",
+        "createdAt": "2018-07-10 23:03:25",
+        "totalItems": 1,
+        "listed": 1,
+        "model": {
+            "type": "model",
+            "zuid": "6-model-zuid",
+            "name": "some model",
+            "label": "Some Model",
+            "resourceURI": "\/-\/instant\/6-model-zuid.json"
+        },
+        "web": {
+            "uri": "\/",
+            "fragment": "zesty_home"
+        }
+    },
+    "data": [
+    {
+        "meta": {
+            "type": "item",
+            "zuid": "7-4ad498-k2cldb",
+            "name": "Homepage",
+            "title": "Homepage",
+            "description": "Some Description",
+            "keywords": "key, words",
+            "language": 1,
+            "model": {
+                "type": "model",
+                "zuid": "6-model-zuid",
+                "name": "some model",
+                "label": "Some Model",
+                "resourceURI": "\/-\/instant\/6-model-zuid.json"
+            },
+            "parent": {
+                "type": "abstract",
+                "zuid": "7-parent-item-zuid",
+                "resourceURI": "\/-\/instant\/7-parent-item-zuid.json",
+            }
+        },
+        "version": {
+            "zuid": "9-version-zuid",
+            "createdAt": "2018-08-17 22:49:06",
+            "iteration": 15,
+            "history": {
+                "type": "versions",
+                "totalItems": 0,
+                "data": null
+            }
+        },
+        "content": {
+            "refName" : "value",
+            "zuid": "18-content-zuid",
+            "version_zuid": "9-6d2c2e2-dlhtq6",
+            "version_num": 15,
+            "publish_at": "2018-08-17 22:49:07",
+            "take_offline_at": null
+        }
+    }]
 }
 ```
 {% endcode-tabs-item %}
@@ -171,66 +165,66 @@ Returned if the zuid exists \(Generic Item Example\)
 {% code-tabs-item title="response.json" %}
 ```yaml
 {
-	"meta": {
-		"type": "item",
-		"zuid": "your-zuid",
-		"createdAt": "2018-07-10 23:03:25",
-		"totalItems": 1,
-		"listed": 1,
-		"model": {
-			"type": "model",
-			"zuid": "6-model-zuid",
-			"name": "some model",
-			"label": "Some Model",
-			"resourceURI": "\/-\/instant\/6-model-zuid.json"
-		},
-		"web": {
-			"uri": "\/",
-			"fragment": "zesty_home"
-		}
-	},
-	"data": [
-	{
-		"meta": {
-			"type": "item",
-			"zuid": "7-4ad498-k2cldb",
-			"name": "Homepage",
-			"title": "Homepage",
-			"description": "Some Description",
-			"keywords": "key, words",
-			"language": 1,
-			"model": {
-				"type": "model",
-				"zuid": "6-model-zuid",
-				"name": "some model",
-				"label": "Some Model",
-				"resourceURI": "\/-\/instant\/6-model-zuid.json"
-			},
-			"parent": {
-				"type": "abstract",
-				"zuid": "7-parent-item-zuid",
-				"resourceURI": "\/-\/instant\/7-parent-item-zuid.json",
-			}
-		},
-		"version": {
-			"zuid": "9-version-zuid",
-			"createdAt": "2018-08-17 22:49:06",
-			"iteration": 15,
-			"history": {
-				"type": "versions",
-				"totalItems": 0,
-				"data": null
-			}
-		},
-		"content": {
-			"refName" : "value",
-			"zuid": "18-content-zuid",
-			"version_zuid": "9-6d2c2e2-dlhtq6",
-			"version_num": 15,
-			"publish_at": "2018-08-17 22:49:07",
-			"take_offline_at": null
-		}
-	}]
+    "meta": {
+        "type": "item",
+        "zuid": "your-zuid",
+        "createdAt": "2018-07-10 23:03:25",
+        "totalItems": 1,
+        "listed": 1,
+        "model": {
+            "type": "model",
+            "zuid": "6-model-zuid",
+            "name": "some model",
+            "label": "Some Model",
+            "resourceURI": "\/-\/instant\/6-model-zuid.json"
+        },
+        "web": {
+            "uri": "\/",
+            "fragment": "zesty_home"
+        }
+    },
+    "data": [
+    {
+        "meta": {
+            "type": "item",
+            "zuid": "7-4ad498-k2cldb",
+            "name": "Homepage",
+            "title": "Homepage",
+            "description": "Some Description",
+            "keywords": "key, words",
+            "language": 1,
+            "model": {
+                "type": "model",
+                "zuid": "6-model-zuid",
+                "name": "some model",
+                "label": "Some Model",
+                "resourceURI": "\/-\/instant\/6-model-zuid.json"
+            },
+            "parent": {
+                "type": "abstract",
+                "zuid": "7-parent-item-zuid",
+                "resourceURI": "\/-\/instant\/7-parent-item-zuid.json",
+            }
+        },
+        "version": {
+            "zuid": "9-version-zuid",
+            "createdAt": "2018-08-17 22:49:06",
+            "iteration": 15,
+            "history": {
+                "type": "versions",
+                "totalItems": 0,
+                "data": null
+            }
+        },
+        "content": {
+            "refName" : "value",
+            "zuid": "18-content-zuid",
+            "version_zuid": "9-6d2c2e2-dlhtq6",
+            "version_num": 15,
+            "publish_at": "2018-08-17 22:49:07",
+            "take_offline_at": null
+        }
+    }]
 }
 ```
 {% endcode-tabs-item %}
@@ -269,73 +263,73 @@ Returned if the zuid exists \(Generic Item Example\)
 {% code-tabs-item title="response.json" %}
 ```yaml
 {
-	"meta": {
-		"type": "model",
-		"zuid": "6-zuid",
-		"createdAt": "2018-07-10 23:17:27",
-		"model": {
-			"type": "model",
-			"zuid": "6-model-zuid",
-			"name": "location_pages",
-			"label": "Some Model",
-			"resourceURI": "\/-\/instant\/6-model-zuid.json"
-		},
-		"totalItems": 2
-	},
-	"data": [
-		{
-			"meta": {
-				"type": "item",
-				"zuid": "7-zuid",
-				"name": "Some Item",
-				"title": "Some Item",
-				"description": "some description",
-				"keywords": "key, words",
-				"language": 1,
-				"model": {
-					"type": "model",
-					"zuid": "6-model-zuid",
-					"name": "location_pages",
-					"label": "Some Model",
-					"resourceURI": "\/-\/instant\/6-model-zuid.json"
-				},
-				"parent": {
-					"type": "item",
-					"zuid": "7-parent-zuid",
-					"resourceURI": "\/-\/instant\/7-parent-zuid.json"
-				}
-			},
-			"version": {
-				"zuid": "9-version-zuid",
-				"createdAt": "2018-07-25 23:05:29",
-				"iteration": 19,
-				"history": {
-					"type": "versions",
-					"totalItems": 0,
-					"data": null
-				}
-			},
-			"content": {
-				"sort": 1,
-				"some_property": "Value",
-				"zuid": "18-content-zuid",
-				"item_zuid": {
-					"type": "relationship",
-					"totalItems": 1,
-					"data": [{
-						"type": "item",
-						"zuid": "7-item-zuid",
-						"resourceURI": "\/-\/instant\/7-item-zuid.json"
-					}]
-				},
-				"version_zuid": "9-version-zuid",
-				"version_num": 19,
-				"publish_at": "2018-07-25 23:05:30",
-				"take_offline_at": null
-			}
-		},
-		{ ... }		
-	]
+    "meta": {
+        "type": "model",
+        "zuid": "6-zuid",
+        "createdAt": "2018-07-10 23:17:27",
+        "model": {
+            "type": "model",
+            "zuid": "6-model-zuid",
+            "name": "location_pages",
+            "label": "Some Model",
+            "resourceURI": "\/-\/instant\/6-model-zuid.json"
+        },
+        "totalItems": 2
+    },
+    "data": [
+        {
+            "meta": {
+                "type": "item",
+                "zuid": "7-zuid",
+                "name": "Some Item",
+                "title": "Some Item",
+                "description": "some description",
+                "keywords": "key, words",
+                "language": 1,
+                "model": {
+                    "type": "model",
+                    "zuid": "6-model-zuid",
+                    "name": "location_pages",
+                    "label": "Some Model",
+                    "resourceURI": "\/-\/instant\/6-model-zuid.json"
+                },
+                "parent": {
+                    "type": "item",
+                    "zuid": "7-parent-zuid",
+                    "resourceURI": "\/-\/instant\/7-parent-zuid.json"
+                }
+            },
+            "version": {
+                "zuid": "9-version-zuid",
+                "createdAt": "2018-07-25 23:05:29",
+                "iteration": 19,
+                "history": {
+                    "type": "versions",
+                    "totalItems": 0,
+                    "data": null
+                }
+            },
+            "content": {
+                "sort": 1,
+                "some_property": "Value",
+                "zuid": "18-content-zuid",
+                "item_zuid": {
+                    "type": "relationship",
+                    "totalItems": 1,
+                    "data": [{
+                        "type": "item",
+                        "zuid": "7-item-zuid",
+                        "resourceURI": "\/-\/instant\/7-item-zuid.json"
+                    }]
+                },
+                "version_zuid": "9-version-zuid",
+                "version_num": 19,
+                "publish_at": "2018-07-25 23:05:30",
+                "take_offline_at": null
+            }
+        },
+        { ... }        
+    ]
 }
 ```
 {% endcode-tabs-item %}
@@ -344,8 +338,6 @@ Returned if the zuid exists \(Generic Item Example\)
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 
 ## Datatypes Returned
 
